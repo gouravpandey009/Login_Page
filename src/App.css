@@ -1,0 +1,55 @@
+/* Dark-light toggle container */
+.dark-light-toggle-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Toggle button */
+.dark-light-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.5s;
+}
+
+/* Hover effect */
+.dark-light-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* Icon styling */
+.dark-light-toggle i {
+  font-size: 24px;
+  color: #eaf4fc; /* Default color */
+}
+
+/* Dark mode icon */
+.dark-light-toggle-container.dark-mode .dark-light-toggle i {
+  color: #cc7a00; /* Dark mode color */
+}
+
+/* Light mode icon */
+.dark-light-toggle-container.light-mode .dark-light-toggle i {
+  color: #eaf4fc; /* Light mode color */
+}
+
+/* Dark mode background */
+.dark-mode {
+  background-color: #121212;
+  color: #eaf4fc;
+}
+
+/* Light mode background */
+.light-mode {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Optional: Box shadow for toggle container */
+.dark-light-toggle-container {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
