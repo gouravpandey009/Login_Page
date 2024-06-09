@@ -12,12 +12,6 @@ A signup/login form with dark/light mode toggle built using React.js, Styled Com
 - Styled Components
 - React Router Dom
 
-## 📸 Screenshots
-
-![Screenshot 1](https://i.ibb.co/VtCBK7R/signup-form-light.png) | ![Screenshot 2](https://i.ibb.co/Yjy30Jh/signup-form-dark.png)
----|---
-![Screenshot 3](https://i.ibb.co/qnQx8k0/login-form-dark.png) | ![Screenshot 4](https://i.ibb.co/QDwWJs6/login-form-light.png)
-
 ## 📝 Usage
 
 1. Clone the repository.
